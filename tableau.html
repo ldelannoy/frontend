@@ -6,6 +6,34 @@
     <title>Tableau</title>
 </head>
 <body>
-    
+  <h1>Tableau</h1>  
+  <form>
+    <div> 
+    <label>Nom :</label>
+      <input type="text" name="nom" value="">
+    </div>
+    <br>
+    <div> 
+        <label>Prénom :</label>
+          <input type="text" name="prenom" value="">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Envoyer">
+    </div>
+
+  </form>
+
+  <table style="margin-top: 30px; width: 500px; border: 1px solid #000;">
+    <tr>
+        <th>ID</th>
+        <th>Nom</th>
+        <th>Prénom</th>
+    </tr>
+    <tbody id="content">
+        
+    </tbody>
+  </table>
+  <script type="text/javascript" src="js/tableau.js"></script>
 </body>
 </html>
