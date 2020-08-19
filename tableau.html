@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tableau</title>
+    <link rel="stylesheet" href="css/tableau.css">
+
 </head>
 <body>
   <h1>Tableau</h1>  
@@ -21,6 +23,13 @@
     <div>
         <input type="submit" value="Envoyer">
     </div>
+    <div>
+      <label for="recherche">Rechercher un membre:</label>
+      <input type="search" id="recherche" name="r"
+       aria-label="Search through site content">
+
+      <button>Rechercher</button>
+    </div>
 
   </form>
 
@@ -30,7 +39,7 @@
         <th>Nom</th>
         <th>Prénom</th>
     </tr>
-    <tbody id="content">
+    <tbody id="content" style="text-align: center;">
         
     </tbody>
   </table>
